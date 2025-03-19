@@ -1,5 +1,5 @@
 import React from "react";
-// import { Card, Row, Col } from "react-bootstrap";
+
 import "./DashboardCard.css";
 
 const DashboardCard = ({
@@ -14,18 +14,18 @@ const DashboardCard = ({
   return (
     <div
       className="card custom-card mb-4 my-card position-relative text-center"
-      style={{
-        //height: "100%",
-        // background: "linear-gradient(to bottom, #f7fdeb, #ffffff)",
-        // background: "linear-gradient(180deg,hsl(212, 75.20%, 57.30%), #f3f9af)",
-        boxShadow: "0 4px 0px rgba(63, 107, 202, 1)",
-      }}
+      // style={{
+      //   //height: "100%",
+      //   // background: "linear-gradient(to bottom, #f7fdeb, #ffffff)",
+      //   // background: "linear-gradient(180deg,hsl(212, 75.20%, 57.30%), #f3f9af)",
+      //   boxShadow: "0 4px 0px rgba(63, 107, 202, 1)",
+      // }}
     >
       {/* <Card.Body> */}
       {/* Title & Icon */}
       <img
         className="card-image img-fluid position-absolute"
-        // alt="PGRS"
+        alt="PGRS"
         src="assets/images/home/pgrs.png"
         //   width="30"
         //   height="30"
@@ -75,9 +75,10 @@ const DashboardCard = ({
 
       <div className="card-footer border-0 text-muted hstack gap-2 justify-content-between">
         <p>Last Updated: {lastUpdated}</p>
-        <a className="btn float-end " href="/pgrs">
+        {/* <a className="btn float-end " href="/pgrs">
           View Dashboard
-        </a>
+        </a> */}
+        <button>View Dashboard</button>
       </div>
     </div>
   );

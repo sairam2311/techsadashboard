@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/7a1b5123-0108-42fd-8185-a1b58533cd4e/resourceGroups/techsamdashboard_group/providers/Microsoft.Web/sites/techsamdashboard",
+  "appService.deploySubpath": "."
+}
