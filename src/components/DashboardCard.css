@@ -1,0 +1,112 @@
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .my-card {
+    background: linear-gradient(310deg, #fff, #f3f9af);
+    box-shadow: "0 4px 80px rgba(0, 125, 0, 0.90)";
+  }
+  .card-image {
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: auto;
+  }
+  
+  .custom-card {
+    border: 1px solid #ddd;
+    height: 100%;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transform: translateY(0);
+  }
+  
+  .custom-card .card-body {
+    padding: 10px 10px 0;
+  }
+  
+  .custom-card .card-body .card-title {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    text-align: left;
+    color: #000;
+    margin-bottom: 0;
+  }
+  
+  .custom-card .card-body .card-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #444;
+  }
+  
+  .custom-card .card-body .number1 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 24px;
+    text-align: center;
+    color: #00843f;
+  }
+  
+  .custom-card .card-body .dataSet1 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #444;
+    margin-bottom: 4px;
+  }
+  
+  .custom-card .card-body .bottom-stats-number {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    color: #000;
+  }
+  
+  .custom-card .card-body .bottom-stats-dataset,
+  .card-footer p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #444;
+    margin-bottom: 0;
+  }
+  
+  .custom-card .divider-vertical {
+    border-left: 1px solid hsla(0, 0%, 87%, 0.288);
+    height: 50px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-left: -1px;
+  }
+  
+  .custom-card .card-footer {
+    padding: 10px 5px 3px;
+  }
+  
+  .card-footer a {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 10px;
+    color: #333;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 1);
+  }
+  
+  .btn {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .card-link:hover {
+    color: #007bff; /* Change to your preferred highlight color */
+  }
