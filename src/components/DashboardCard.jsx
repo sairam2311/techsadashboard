@@ -6,8 +6,12 @@ const DashboardCard = ({
   title,
   subtitle,
   total,
-  redressed,
-  inProgress,
+  TotalTitle,
+  first,
+  FirstNumberTitle,
+  second,
+  SecondNumebrTitle,
+
   lastUpdated,
   link,
 }) => {
@@ -23,31 +27,35 @@ const DashboardCard = ({
     >
       {/* <Card.Body> */}
       {/* Title & Icon */}
-      <img
+      {/* <img
         className="card-image img-fluid position-absolute"
         alt="PGRS"
         src="assets/images/home/pgrs.png"
         //   width="30"
         //   height="30"
-      />
+      /> */}
       <div className="card-body text-left">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{subtitle}</p>
 
         {/* Total Received */}
         <h2 className="card-number number1 text-center">{total}</h2>
-        <p className="data-set text-center dataSet1">Total Received</p>
+        <p className="data-set text-center dataSet1">{TotalTitle}</p>
 
         <div className="row align-items-center">
           <div className="col-6 position-relative">
-            <h4 className="small-number bottom-stats-number">{redressed}</h4>
-            <p className="small-text bottom-stats-dataset">Redressed</p>
+            <h4 className="small-number bottom-stats-number">{first}</h4>
+            <p className="small-text bottom-stats-dataset">
+              {FirstNumberTitle}
+            </p>
           </div>
 
           <div className="col-6 position-relative">
             <div className="divider-vertical position-absolute"></div>
-            <h4 className="small-number bottom-stats-number">{inProgress}</h4>
-            <p className="small-text bottom-stats-dataset">In Progress</p>
+            <h4 className="small-number bottom-stats-number">{second}</h4>
+            <p className="small-text bottom-stats-dataset">
+              {SecondNumebrTitle}
+            </p>
           </div>
         </div>
       </div>

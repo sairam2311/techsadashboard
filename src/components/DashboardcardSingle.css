@@ -1,0 +1,154 @@
+/* .custom-card {
+  border: 1px solid #cf0101;
+  height: 100%;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transform: translateY(0);
+} */
+
+.schooleducation-card {
+  background: linear-gradient(180deg, #fff, #ffded0);
+}
+.text-center {
+  text-align: center !important;
+}
+
+.card-image {
+  top: 10px;
+  right: 10px;
+  width: 50px;
+}
+.position-absolute {
+  position: absolute !important;
+}
+.custom-card .card-body {
+  padding: 10px 10px 0;
+}
+
+.custom-card .card-body .card-title {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: left;
+  color: #000;
+  margin-bottom: 0;
+}
+
+.custom-card .card-body .card-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #444;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.custom-card .card-body .number1 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: center;
+  color: #00843f;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+strong,
+a,
+label,
+button,
+td,
+th {
+  font-family: Inter, sans-serif;
+}
+
+.custom-card .card-body .dataSet1 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #444;
+  margin-bottom: 4px;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.custom-card .card-body .bottom-stats-number {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 24px;
+  color: #000;
+}
+.custom-card .small-number {
+  font-size: 18px;
+  font-weight: 700;
+}
+.custom-card .card-body .bottom-stats-dataset,
+.card-footer p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #444;
+  margin-bottom: 0;
+}
+
+.custom-card .card-footer {
+  padding: 0 10px 6px;
+}
+
+.card-footer {
+  background: none;
+  border-bottom: 4px solid #00843f !important;
+}
+.card-footer:last-child {
+  border-radius: 0 0 var(--bs-card-inner-border-radius)
+    var(--bs-card-inner-border-radius);
+}
+.text-muted {
+  --bs-text-opacity: 1;
+  color: var(--bs-secondary-color) !important;
+}
+.gap-2 {
+  gap: 0.5rem !important;
+}
+.justify-content-between {
+  justify-content: space-between !important;
+}
+.custom-card .card-body .bottom-stats-dataset,
+.card-footer p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #444;
+  margin-bottom: 0;
+}
+.card-footer a {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+  color: #333;
+}
+.float-end {
+  float: right !important;
+}

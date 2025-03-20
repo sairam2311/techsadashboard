@@ -4,10 +4,10 @@
 
 .my-card {
   background: linear-gradient(180deg, #fff, #f3f9af);
-  box-shadow: 0 4px 0px rgba(63, 107, 202, 1);
-
+  /*  box-shadow: 0 4px 0px rgba(63, 107, 202, 1); */
   /* 0 4px 80px rgba(0, 5, 0, 0.9); */
 }
+
 .card-image {
   top: 10px;
   right: 10px;
@@ -89,10 +89,10 @@
   margin-left: -1px;
 }
 
-.custom-card .card-footer {
+/* .custom-card .card-footer {
   padding: 10px 5px 3px;
   box-shadow: 0 4px 0px rgba(63, 107, 202, 1);
-}
+} */
 
 .card-footer a {
   font-size: 13px;
