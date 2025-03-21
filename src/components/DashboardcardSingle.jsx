@@ -24,12 +24,7 @@ export default function DashboardcardSingle() {
       <div className="card-footer border-0 text-muted hstack gap-2 justify-content-between">
         <p>Last Updated: Aug 2024</p>
 
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          class="btn float-end"
-          href="https://vskdashboard.ap.gov.in"
-        >
+        <a rel="noopener noreferrer" class="btn float-end" href="/sd">
           View Dashboard
         </a>
       </div>

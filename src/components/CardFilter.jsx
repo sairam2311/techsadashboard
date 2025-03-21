@@ -16,18 +16,20 @@ function CardFilter({ filterChange }) {
           </a>
         </li>
         <li>
-            <a className="dropdown-itme"
-            onClick={() => filterChange('This Month')}
-            >
-                This Month
-            </a>
+          <a
+            className="dropdown-itme"
+            onClick={() => filterChange("This Month")}
+          >
+            This Month
+          </a>
         </li>
         <li>
-            <a className="dropdown-itme"
-            onClick={() => filterChange('This Year')}
-            >
-                This Year
-            </a>
+          <a
+            className="dropdown-itme"
+            onClick={() => filterChange("This Year")}
+          >
+            This Year
+          </a>
         </li>
       </ul>
     </div>
